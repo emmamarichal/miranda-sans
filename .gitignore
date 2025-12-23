@@ -1,0 +1,6 @@
+.DS_Store
+*.glyphs~*
+*.autosave
+*.bak
+*.tmp
+*.zip
