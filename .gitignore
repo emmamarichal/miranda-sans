@@ -1,6 +1,31 @@
+# ------------------------
+# OS
+# ------------------------
 .DS_Store
-*.glyphs~*
-*.autosave
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ------------------------
+# Python / venv
+# ------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ------------------------
+# Tooling / reports
+# ------------------------
+report.json
+*.log
 *.bak
-*.tmp
-*.zip
+*.backup
+*~ 
+
+# ------------------------
+#
