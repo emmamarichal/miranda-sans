@@ -118,16 +118,42 @@ if [ "$DSIG_FOUND" -ne 0 ]; then
   exit 1
 fi
 
+# Extra: backup check direkt innan nästa steg
+cleanup_backups "precis innan drop av unreachable glyphs"
+
+echo
+echo "== Steg 5: Drop unreachable glyphs (fonttools subset, keep reachable only) =="
+for f in "${TTFS[@]}"; do
+  echo "Pruning unreachable glyphs via fonttools subset: $f"
+
+  tmp_out="$(mktemp -t subset.XXXXXX).ttf"
+
+  fonttools subset "$f" \
+    --output-file="$tmp_out" \
+    --unicodes='*' \
+    --layout-features='*' \
+    --name-IDs='*' \
+    --name-languages='*' \
+    --drop-tables= \
+    --passthrough-tables \
+    --notdef-glyph \
+    --notdef-outline \
+    --verbose
+
+  mv -f "$tmp_out" "$f"
+done
+cleanup_backups "efter drop av unreachable glyphs"
+
 # Extra: backup check direkt innan FontBakery
 cleanup_backups "precis innan FontBakery"
 
 echo
-echo "== Steg 5: FontBakery (skip-network) och skriv $REPORT_JSON =="
+echo "== Steg 6: FontBakery (skip-network) och skriv $REPORT_JSON =="
 rm -f "$REPORT_JSON"
 fontbakery check-googlefonts --skip-network --json "$REPORT_JSON" "${TTFS[@]}"
 
 echo
-echo "== Steg 6: Faila om FAIL finns =="
+echo "== Steg 7: Faila om FAIL finns =="
 if grep -q '"result": "FAIL"' "$REPORT_JSON"; then
   echo "FAIL hittades i $REPORT_JSON"
   fontbakery check-googlefonts --skip-network --loglevel FAIL "${TTFS[@]}" || true
@@ -138,4 +164,3 @@ fi
 
 echo
 echo "DONE"
-
