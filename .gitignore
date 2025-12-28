@@ -21,16 +21,6 @@ report.json
 *.log
 
 # ------------------------
-# Source & Build tools (Keep out of GF repo)
-# ------------------------
-source/
-tools/
-build_fonts.sh
-*.glyphs
-*.ufo
-*.designspace
-
-# ------------------------
 # Documentation & Misc
 # ------------------------
 README.md
