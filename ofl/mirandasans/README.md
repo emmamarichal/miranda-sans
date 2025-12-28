@@ -1,9 +1,10 @@
 # Miranda Sans
 
-Open source sans-serif typeface. An ordinary, yet special typeface.
+Miranda Sans is an open-source sans serif typeface designed for clear, comfortable reading.
 
-## Download
-TTF files are in the /static folder
+## Repository structure
+- `/sources` – Glyphs source files
+- `/ofl/mirandasans` – Google Fonts family directory
 
 ## License
-SIL Open Font License 1.1 (see OFL.txt).
+Released under the SIL Open Font License 1.1.
