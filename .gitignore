@@ -23,7 +23,6 @@ report.json
 # ------------------------
 # Documentation & Misc
 # ------------------------
-README.md
 *.bak
 *.backup
 *~
