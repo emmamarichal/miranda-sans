@@ -27,3 +27,8 @@ README.md
 *.bak
 *.backup
 *~
+
+# gftools / ninja
+sources/.ninja_log
+sources/build.ninja
+sources/instance_ufos/
