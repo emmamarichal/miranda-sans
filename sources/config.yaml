@@ -1,0 +1,7 @@
+sources:
+  - MirandaSans.glyphs
+  - MirandaSans-Italic.glyphs
+axisOrder:
+  - wght
+outputDir: "../ofl/mirandasans"
+buildOTF: false

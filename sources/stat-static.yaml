@@ -1,0 +1,10 @@
+- name: Italic
+  tag: ital
+  values:
+    - name: Roman
+      value: 0
+      linkedValue: 1
+      flags: 2
+    - name: Italic
+      value: 1
+      flags: 2

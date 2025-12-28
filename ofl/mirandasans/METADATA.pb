@@ -8,7 +8,7 @@ fonts {
   name: "Miranda Sans"
   style: "normal"
   weight: 400
-  filename: "MirandaSans-Regular.ttf"
+  filename: "MirandaSans[wght].ttf"
   post_script_name: "MirandaSans-Regular"
   full_name: "Miranda Sans Regular"
   copyright: "Copyright 2025 The Miranda Sans Project Authors (https://github.com/maxthunberg/miranda-sans/)"
@@ -16,33 +16,24 @@ fonts {
 
 fonts {
   name: "Miranda Sans"
-  style: "normal"
-  weight: 500
-  filename: "MirandaSans-Medium.ttf"
-  post_script_name: "MirandaSans-Medium"
-  full_name: "Miranda Sans Medium"
+  style: "italic"
+  weight: 400
+  filename: "MirandaSans-Italic[wght].ttf"
+  post_script_name: "MirandaSans-Italic"
+  full_name: "Miranda Sans Italic"
   copyright: "Copyright 2025 The Miranda Sans Project Authors (https://github.com/maxthunberg/miranda-sans/)"
 }
 
-fonts {
-  name: "Miranda Sans"
-  style: "normal"
-  weight: 600
-  filename: "MirandaSans-SemiBold.ttf"
-  post_script_name: "MirandaSans-SemiBold"
-  full_name: "Miranda Sans SemiBold"
-  copyright: "Copyright 2025 The Miranda Sans Project Authors (https://github.com/maxthunberg/miranda-sans/)"
+axes {
+  tag: "wght"
+  min_value: 400
+  max_value: 700
 }
 
-fonts {
-  name: "Miranda Sans"
-  style: "normal"
-  weight: 700
-  filename: "MirandaSans-Bold.ttf"
-  post_script_name: "MirandaSans-Bold"
-  full_name: "Miranda Sans Bold"
-  copyright: "Copyright 2025 The Miranda Sans Project Authors (https://github.com/maxthunberg/miranda-sans/)"
+source {
+  repository_url: "https://github.com/maxthunberg/miranda-sans"
 }
 
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"

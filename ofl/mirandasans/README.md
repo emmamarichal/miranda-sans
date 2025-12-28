@@ -1,9 +1,9 @@
 # Miranda Sans
 
-Open source sans-serif typeface.
+Open source sans-serif typeface. An ordinary, yet special typeface.
 
 ## Download
-TTF files are in the root folder (or see Releases when available).
+TTF files are in the /static folder
 
 ## License
 SIL Open Font License 1.1 (see OFL.txt).
