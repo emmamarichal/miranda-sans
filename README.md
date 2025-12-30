@@ -14,7 +14,7 @@ Miranda Sans is available as a variable font and includes carefully crafted stat
 
 - Variable font with a continuous weight axis
 - Optimized for screen readability
-- Balanced proportions and open apertures
+- Balanced proportions and closed apertures
 - Carefully tuned spacing and kerning
 - Tabular and proportional figures
 - Common Latin ligatures
@@ -38,7 +38,7 @@ Variable fonts enable smoother typographic hierarchies and more flexible design 
 @font-face {
   font-family: "Miranda Sans";
   font-style: normal;
-  font-weight: 100 900;
+  font-weight: 400 700;
   font-display: swap;
   src: url("MirandaSans[wght].woff2") format("woff2");
 }
@@ -47,7 +47,7 @@ body {
   font-family: "Miranda Sans", Arial, Helvetica, sans-serif;
 }
 ```
-Miranda Sans is a [variable font](https://github.com/maxthunberg/miranda-sans/tree/main/ofl/mirandasans) and is in addition also distributed as a set of traditional distinct font files in the following styles:
+Here are all styles supported by Miranda Sans:
 
 | Roman (upright) name | Italic name          | Weight
 | -------------------- | -------------------- | ------------
