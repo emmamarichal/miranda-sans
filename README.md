@@ -8,8 +8,7 @@ Miranda Sans is available as a variable font and includes carefully crafted stat
 
 <br>
 
-[![Miranda Sans hero](ofl/mirandasans/article/hero.png)](https://maxthunberg.com/miranda-sans)
-
+[![Miranda Sans hero](ofl/mirandasans/article/hero.png)](https://maxthunberg.com/projects/miranda-sans/)
 
 ## Features
 
