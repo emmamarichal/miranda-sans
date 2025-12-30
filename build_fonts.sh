@@ -78,6 +78,8 @@ fi
 # Google Fonts does not want:
 # - OTF output
 # - Webfont output
+# 
+# Deactivate this if you want otf or webfonts to be generated
 # ---------------------------------------------------------------------------
 echo "== 3. Remove unwanted build artifacts =="
 rm -rf "$FAMILY_DIR/otf" "$FAMILY_DIR/webfonts"

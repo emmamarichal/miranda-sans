@@ -30,6 +30,9 @@ Variable fonts enable smoother typographic hierarchies and more flexible design 
 
 [Static instances](https://github.com/maxthunberg/miranda-sans/tree/main/ofl/mirandasans/static) are included for compatibility with older environments and workflows that do not support variable fonts.
 
+## Download webfonts (.woff2) 
+Ready to use on your website. [Download via this link](https://github.com/maxthunberg/miranda-sans/tree/main/webfonts).
+
 ## Usage
 
 ### CSS example
@@ -59,3 +62,4 @@ Here are all styles supported by Miranda Sans:
 ## About designer
 
 Miranda Sans is designed by [Max Thunberg](https://maxthunberg.com/)
+
