@@ -56,7 +56,7 @@ Here are all styles supported by Miranda Sans:
 | -------------------- | -------------------- | ------------
 | Regular              | Italic               | 400
 | Medium               | Medium Italic        | 500
-| Semi Bold            | Semi Bold Italic     | 600
+| SemiBold             | SemiBold Italic     | 600
 | Bold                 | Bold Italic          | 700
 
 ## About designer
