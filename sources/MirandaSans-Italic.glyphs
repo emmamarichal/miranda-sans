@@ -7,7 +7,13 @@ ty,
 "asf¹",
 "⁴",
 "",
-"/f_f_l"
+"/f_f_l",
+"asfdʼasdf",
+j,
+"",
+"́",
+"ȷ",
+"±"
 );
 axes = (
 {
@@ -45,7 +51,7 @@ name = "Has WWS Names";
 value = 1;
 }
 );
-date = "2025-12-30 17:20:25 +0000";
+date = "2026-01-07 18:34:57 +0000";
 familyName = "Miranda Sans";
 featurePrefixes = (
 {
@@ -106,6 +112,7 @@ automatic = 1;
 code = "sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
+sub four by foursuperior;
 ";
 tag = sups;
 },
@@ -515,7 +522,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (288,200);
+pos = (288,190);
 ref = acutecomb;
 }
 );
@@ -1528,7 +1535,7 @@ shapes = (
 ref = C;
 },
 {
-pos = (293,210);
+pos = (293,200);
 ref = acutecomb;
 }
 );
@@ -2211,7 +2218,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (231,200);
+pos = (231,190);
 ref = acutecomb;
 }
 );
@@ -3493,7 +3500,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (71,200);
+pos = (71,190);
 ref = acutecomb;
 }
 );
@@ -3812,7 +3819,7 @@ unicode = 302;
 glyphname = J;
 kernLeft = J;
 kernRight = J;
-lastChange = "2025-12-30 17:14:59 +0000";
+lastChange = "2026-01-07 19:10:14 +0000";
 layers = (
 {
 anchors = (
@@ -4258,7 +4265,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (204,-40);
+pos = (204,-50);
 ref = acutecomb;
 }
 );
@@ -4790,7 +4797,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (306,200);
+pos = (306,190);
 ref = acutecomb;
 }
 );
@@ -5287,7 +5294,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (293,210);
+pos = (293,200);
 ref = acutecomb;
 }
 );
@@ -6480,7 +6487,7 @@ alignment = -1;
 ref = R;
 },
 {
-pos = (256,200);
+pos = (256,190);
 ref = acutecomb;
 }
 );
@@ -6762,7 +6769,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (248,209);
+pos = (248,199);
 ref = acutecomb;
 }
 );
@@ -7526,7 +7533,7 @@ alignment = -1;
 ref = U;
 },
 {
-pos = (271,200);
+pos = (271,190);
 ref = acutecomb;
 }
 );
@@ -8256,7 +8263,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (425,200);
+pos = (425,190);
 ref = acutecomb;
 }
 );
@@ -8634,7 +8641,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (236,200);
+pos = (236,190);
 ref = acutecomb;
 }
 );
@@ -8907,7 +8914,7 @@ alignment = -1;
 ref = Z;
 },
 {
-pos = (226,200);
+pos = (226,190);
 ref = acutecomb;
 }
 );
@@ -9230,7 +9237,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (169,20);
+pos = (169,10);
 ref = acutecomb;
 }
 );
@@ -10384,7 +10391,7 @@ alignment = -1;
 ref = c;
 },
 {
-pos = (189,20);
+pos = (189,10);
 ref = acutecomb;
 }
 );
@@ -11383,7 +11390,7 @@ alignment = -1;
 ref = e;
 },
 {
-pos = (191,30);
+pos = (191,20);
 ref = acutecomb;
 }
 );
@@ -12845,7 +12852,7 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (23,10);
+pos = (23,0);
 ref = acutecomb;
 }
 );
@@ -13214,13 +13221,13 @@ unicode = 303;
 glyphname = j;
 kernLeft = j;
 kernRight = j;
-lastChange = "2026-01-04 14:17:29 +0000";
+lastChange = "2026-01-07 18:50:36 +0000";
 layers = (
 {
 anchors = (
 {
 name = top;
-pos = (181,520);
+pos = (218,730);
 }
 );
 hints = (
@@ -13303,7 +13310,7 @@ width = 255;
 anchors = (
 {
 name = top;
-pos = (211,530);
+pos = (250,750);
 }
 );
 hints = (
@@ -13831,7 +13838,7 @@ alignment = -1;
 ref = l;
 },
 {
-pos = (61,200);
+pos = (61,190);
 ref = acutecomb;
 }
 );
@@ -14458,7 +14465,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (200,20);
+pos = (200,10);
 ref = acutecomb;
 }
 );
@@ -14972,7 +14979,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (189,20);
+pos = (189,10);
 ref = acutecomb;
 }
 );
@@ -16207,7 +16214,7 @@ shapes = (
 ref = r;
 },
 {
-pos = (168,10);
+pos = (168,0);
 ref = acutecomb;
 }
 );
@@ -16498,7 +16505,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (156,20);
+pos = (156,10);
 ref = acutecomb;
 }
 );
@@ -17433,7 +17440,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (178,10);
+pos = (178,0);
 ref = acutecomb;
 }
 );
@@ -18156,7 +18163,7 @@ shapes = (
 ref = w;
 },
 {
-pos = (309,10);
+pos = (309,0);
 ref = acutecomb;
 }
 );
@@ -18532,7 +18539,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (173,10);
+pos = (173,0);
 ref = acutecomb;
 }
 );
@@ -18806,7 +18813,7 @@ shapes = (
 ref = z;
 },
 {
-pos = (135,10);
+pos = (135,0);
 ref = acutecomb;
 }
 );
@@ -30568,19 +30575,19 @@ unicode = 8804;
 },
 {
 glyphname = plusminus;
-lastChange = "2025-12-29 20:41:52 +0000";
+lastChange = "2026-01-07 19:25:27 +0000";
 layers = (
 {
 hints = (
 {
 horizontal = 1;
-origin = (2,2);
-target = (2,3);
+origin = (1,2);
+target = (1,3);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (1,2);
+origin = (2,2);
 target = (0,3);
 type = Stem;
 },
@@ -30591,8 +30598,8 @@ target = (0,3);
 type = Stem;
 },
 {
-origin = (1,3);
-target = (1,0);
+origin = (2,3);
+target = (2,0);
 type = Stem;
 }
 );
@@ -30610,19 +30617,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(308,170,l),
-(370,520,l),
-(290,520,l),
-(228,170,l)
+(485,40,l),
+(497,110,l),
+(17,110,l),
+(5,40,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(485,40,l),
-(497,110,l),
-(17,110,l),
-(5,40,l)
+(308,170,l),
+(370,520,l),
+(290,520,l),
+(228,170,l)
 );
 }
 );
@@ -34568,17 +34575,13 @@ unicode = 768;
 },
 {
 glyphname = acutecomb;
-lastChange = "2025-12-29 20:49:38 +0000";
+lastChange = "2026-01-07 19:08:39 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
 pos = (135,520);
-},
-{
-name = top;
-pos = (166,700);
 }
 );
 hints = (
@@ -34612,11 +34615,7 @@ width = 301;
 anchors = (
 {
 name = _top;
-pos = (154,520);
-},
-{
-name = top;
-pos = (185,700);
+pos = (154,530);
 }
 );
 hints = (
@@ -36801,6 +36800,30 @@ nodes = (
 width = 201;
 }
 );
+},
+{
+glyphname = apostrophemod;
+layers = (
+{
+layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
+shapes = (
+{
+ref = quoteright;
+}
+);
+width = 241;
+},
+{
+layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+shapes = (
+{
+ref = quoteright;
+}
+);
+width = 261;
+}
+);
+unicode = 700;
 }
 );
 instances = (
