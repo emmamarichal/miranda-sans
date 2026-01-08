@@ -3,7 +3,8 @@
 .formatVersion = 3;
 DisplayStrings = (
 "(/parenleft.caps/parenright.caps {{/braceleft.caps/braceright.caps []/bracketleft.caps/bracketright.caps",
-"/braceright.caps"
+"/braceright.caps",
+"Įį"
 );
 axes = (
 {
@@ -56,10 +57,10 @@ features = (
 {
 automatic = 1;
 code = "feature calt;
+feature locl;
 feature sups;
 feature frac;
 feature ordn;
-feature locl;
 ";
 tag = aalt;
 },
@@ -128,11 +129,6 @@ tag = calt;
 },
 {
 automatic = 1;
-code = "";
-tag = case;
-},
-{
-automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
@@ -150,6 +146,35 @@ script latn;
 lookup ccmp_latn_1;
 ";
 tag = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+";
+tag = locl;
 },
 {
 automatic = 1;
@@ -190,35 +215,6 @@ automatic = 1;
 code = "pos @Uppercase <5 0 10 0>;
 ";
 tag = cpsp;
-},
-{
-automatic = 1;
-code = "script latn;
-language AZE;
-lookup locl_latn_0 {
-	sub i by idotaccent;
-} locl_latn_0;
-language CRT;
-lookup locl_latn_0;
-language KAZ;
-lookup locl_latn_0;
-language TAT;
-lookup locl_latn_0;
-language TRK;
-lookup locl_latn_0;
-
-script latn;
-language ROM;
-lookup locl_latn_1 {
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-} locl_latn_1;
-language MOL;
-lookup locl_latn_1;
-";
-tag = locl;
 }
 );
 fontMaster = (
@@ -3754,9 +3750,15 @@ unicode = 298;
 },
 {
 glyphname = Iogonek;
-lastChange = "2026-01-08 00:01:20 +0000";
+lastChange = "2026-01-08 01:01:55 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (136,720);
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -3806,6 +3808,12 @@ nodes = (
 width = 276;
 },
 {
+anchors = (
+{
+name = top;
+pos = (147,720);
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -13816,9 +13824,15 @@ unicode = 299;
 },
 {
 glyphname = iogonek;
-lastChange = "2026-01-07 23:54:00 +0000";
+lastChange = "2026-01-08 01:02:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (131,730);
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -13896,6 +13910,12 @@ nodes = (
 width = 246;
 },
 {
+anchors = (
+{
+name = top;
+pos = (132,770);
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -23434,6 +23454,36 @@ nodes = (
 width = 440;
 }
 );
+},
+{
+glyphname = lineseparator;
+lastChange = "2026-01-08 01:05:48 +0000";
+layers = (
+{
+layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
+width = 200;
+},
+{
+layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+width = 200;
+}
+);
+unicode = 8232;
+},
+{
+glyphname = paragraphseparator;
+lastChange = "2026-01-08 01:05:48 +0000";
+layers = (
+{
+layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
+width = 200;
+},
+{
+layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+width = 200;
+}
+);
+unicode = 8233;
 },
 {
 glyphname = period;
