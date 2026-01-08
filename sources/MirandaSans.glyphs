@@ -2,21 +2,8 @@
 .appVersion = "3436";
 .formatVersion = 3;
 DisplayStrings = (
-"ą̃",
-"ą",
-"a¯̄ā",
-"ā",
-"˘˘a˘ă",
-"à",
-"aáăâäàāąåãæbcćčçċdďđðeéěêëėèēęf/f_f_i/f_f_l ﬁﬂgğģġhħiı́ílîï/idotaccent ìīįjȷkķlĺľļłmnńňņñŋoóôöòőōøõœpþqrŕřŗsśšşșßtŧťţțuúûüùűūųůvwẃŵẅẁxyýŷÿỳzźžżμπ",
-"AÁĂÂÄÀĀĄÅÃÆBCĆČÇĊDĎĐÐEÉĚÊËĖÈĒĘFGĞĢĠHĦIÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŦŤŢȚUÚÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽŻΔΩ",
-"L/caron.alt Ľ",
-"Ï",
-"Î",
-"Ì",
-"Ī",
-"Ĺ",
-"AÁĂÂÄÀĀĄÅÃÆBCĆČÇĊDĎĐÐEÉĚÊËĖÈĒĘFGĞĢĠHĦIÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŦŤŢȚUÚÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽ"
+"(/parenleft.caps/parenright.caps {{/braceleft.caps/braceright.caps []/bracketleft.caps/bracketright.caps",
+"/braceright.caps"
 );
 axes = (
 {
@@ -46,11 +33,22 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2026-01-08 00:08:29 +0000";
+date = "2026-01-08 00:35:55 +0000";
 familyName = "Miranda Sans";
 featurePrefixes = (
 {
-code = "";
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+";
 name = Languagesystems;
 }
 );
@@ -129,20 +127,27 @@ lookup CapsPunctuationByContext {
 tag = calt;
 },
 {
+automatic = 1;
 code = "";
 tag = case;
 },
 {
-code = "lookup ccmp_Other_1 {
-  @CombiningTopAccentsExceptAcute = [brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-  @CombiningNonTopAccents = [cedillacomb ogonekcomb];
+automatic = 1;
+code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
 
-  sub [i j]' @CombiningTopAccentsExceptAcute by [idotless jdotless];
-  sub [i j]' @CombiningNonTopAccents @CombiningTopAccentsExceptAcute by [idotless jdotless];
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
 
-  sub i' acutecomb by idotless;
-  sub i' @CombiningNonTopAccents acutecomb by idotless;
-} ccmp_Other_1;
+script latn;
+lookup ccmp_latn_1;
 ";
 tag = ccmp;
 },
@@ -187,25 +192,31 @@ code = "pos @Uppercase <5 0 10 0>;
 tag = cpsp;
 },
 {
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	language CRT;
-	language KAZ;
-	language TAT;
-	language TRK;
+automatic = 1;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 ";
 tag = locl;
 }
@@ -25402,7 +25413,7 @@ unicode = 95;
 {
 glyphname = parenleft;
 kernRight = parenleft;
-lastChange = "2026-01-05 17:10:31 +0000";
+lastChange = "2026-01-08 00:42:43 +0000";
 layers = (
 {
 hints = (
@@ -26016,7 +26027,7 @@ width = 380;
 {
 glyphname = braceleft.caps;
 kernRight = bracketleft;
-lastChange = "2026-01-05 17:12:51 +0000";
+lastChange = "2026-01-08 00:48:20 +0000";
 layers = (
 {
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
@@ -26043,14 +26054,14 @@ width = 440;
 {
 glyphname = braceright.caps;
 kernLeft = bracketright;
-lastChange = "2026-01-05 17:08:24 +0000";
+lastChange = "2026-01-08 00:54:50 +0000";
 layers = (
 {
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
 shapes = (
 {
-pos = (380,0);
-ref = braceleft.caps;
+pos = (380,110);
+ref = braceleft;
 scale = (-1,1);
 }
 );
@@ -26060,8 +26071,8 @@ width = 380;
 layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
 shapes = (
 {
-pos = (440,0);
-ref = braceleft.caps;
+pos = (440,110);
+ref = braceleft;
 scale = (-1,1);
 }
 );
