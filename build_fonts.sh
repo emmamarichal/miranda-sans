@@ -105,13 +105,13 @@ fi
 echo "== 5. Running gftools fix-font on all TTFs =="
 find "$FAMILY_DIR" -name "*.ttf" -exec gftools fix-font {} -o {} \;
 
-# ---------------------------------------------------------------------------
-# 6. Generate STAT tables for variable fonts
-# ---------------------------------------------------------------------------
-echo "== 6. Generating STAT tables for variable fonts =="
-gftools gen-stat --inplace --src sources/stat.yaml \
-  "$VF_DIR/MirandaSans[wght].ttf" \
-  "$VF_DIR/MirandaSans-Italic[wght].ttf"
+# # ---------------------------------------------------------------------------
+# # 6. Generate STAT tables for variable fonts
+# # ---------------------------------------------------------------------------
+# echo "== 6. Generating STAT tables for variable fonts =="
+# gftools gen-stat --inplace --src sources/config.yaml \
+#   "$VF_DIR/MirandaSans[wght].ttf" \
+#   "$VF_DIR/MirandaSans-Italic[wght].ttf"
 
 # ---------------------------------------------------------------------------
 # 7. Enforce correct metadata, flags, and naming
