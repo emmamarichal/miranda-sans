@@ -8,9 +8,9 @@ Miranda Sans is available as a variable font and includes carefully crafted stat
 
 <br>
 
-[![Miranda Sans hero](ofl/mirandasans/article/hero.png)](https://maxthunberg.com/projects/miranda-sans/)
+[![Miranda Sans Image 1](ofl/mirandasans/article/image-1.png)](https://maxthunberg.com/projects/miranda-sans/)
 
-## Features
+## Information
 
 - Variable font with a continuous weight axis
 - Optimized for screen readability
@@ -20,18 +20,27 @@ Miranda Sans is available as a variable font and includes carefully crafted stat
 - Common Latin ligatures
 - Broad Latin language support
 
+## Example images
+[![Miranda Sans Image 2](ofl/mirandasans/article/image-2.png)](https://maxthunberg.com/projects/miranda-sans/)
+
+[![Miranda Sans Image 3](ofl/mirandasans/article/image-3.png)](https://maxthunberg.com/projects/miranda-sans/)
+
+[![Miranda Sans Image 4](ofl/mirandasans/article/image-4.png)](https://maxthunberg.com/projects/miranda-sans/)
+
+[![Miranda Sans Image 5](ofl/mirandasans/article/image-5.png)](https://maxthunberg.com/projects/miranda-sans/)
+
 ## Variable font
 
-Miranda Sans is provided as a [variable font](https://github.com/maxthunberg/miranda-sans/tree/main/ofl/mirandasans) with a `wght` axis, allowing precise control over typographic weight while reducing file size and complexity.
+Miranda Sans is provided as a [variable font](https://github.com/maxthunberg/miranda-sans/tree/main/fonts/variable) with a `wght` axis, allowing precise control over typographic weight while reducing file size and complexity.
 
 Variable fonts enable smoother typographic hierarchies and more flexible design systems compared to traditional static fonts.
 
 ## Static fonts
 
-[Static instances](https://github.com/maxthunberg/miranda-sans/tree/main/ofl/mirandasans/static) are included for compatibility with older environments and workflows that do not support variable fonts.
+[Static instances](https://github.com/maxthunberg/miranda-sans/tree/main/fonts/ttf) are included for compatibility with older environments and workflows that do not support variable fonts.
 
 ## Download webfonts (.woff2) 
-Ready to use on your website. [Download via this link](https://github.com/maxthunberg/miranda-sans/tree/main/webfonts).
+Ready to use on your website. [Download via this link](https://github.com/maxthunberg/miranda-sans/tree/main/fonts/webfonts).
 
 ## Usage
 
@@ -56,7 +65,7 @@ Here are all styles supported by Miranda Sans:
 | -------------------- | -------------------- | ------------
 | Regular              | Italic               | 400
 | Medium               | Medium Italic        | 500
-| SemiBold             | SemiBold Italic     | 600
+| SemiBold             | SemiBold Italic      | 600
 | Bold                 | Bold Italic          | 700
 
 ## About designer

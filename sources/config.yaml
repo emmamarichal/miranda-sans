@@ -3,7 +3,6 @@ sources:
   - MirandaSans-Italic.glyphs
 axisOrder:
   - wght
-outputDir: "../ofl/mirandasans"
 
 stat:
   MirandaSans[wght].ttf:
