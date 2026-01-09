@@ -185,6 +185,60 @@ for f in os.listdir(os.environ["VF_DIR"]):
         fix_metadata(os.path.join(os.environ["VF_DIR"], f), False)
 PY
 
+python - <<'PY'
+from fontTools.ttLib import TTFont, newTable
+
+paths = ["ofl/mirandasans/MirandaSans[wght].ttf",
+         "ofl/mirandasans/MirandaSans-Italic[wght].ttf"]
+
+for path in paths:
+    f = TTFont(path)
+    if "fvar" not in f:
+        raise SystemExit(f"{path}: not a variable font (missing fvar)")
+    if "avar" in f:
+        print(path, "already has avar, skipping")
+        continue
+
+    avar = newTable("avar")
+    avar.segments = {}
+
+    # Identity mapping for each axis: -1.0 -> -1.0, 0.0 -> 0.0, 1.0 -> 1.0
+    for axis in f["fvar"].axes:
+        avar.segments[axis.axisTag] = {-1.0: -1.0, 0.0: 0.0, 1.0: 1.0}
+
+    f["avar"] = avar
+    f.save(path)
+    print(path, "added identity avar")
+PY
+
+python - <<'PY'
+from fontTools.ttLib import TTFont, newTable
+
+fonts = [
+    "ofl/mirandasans/MirandaSans[wght].ttf",
+    "ofl/mirandasans/MirandaSans-Italic[wght].ttf",
+]
+
+# Miranda Sans är i praktiken en Latin-sans.
+# dlng = "designed for", slng = "supports"
+DLNG = "Latn"
+SLNG = "Latn"
+
+for path in fonts:
+    tt = TTFont(path)
+
+    if "meta" not in tt:
+        tt["meta"] = newTable("meta")
+        tt["meta"].data = {}
+
+    # meta table uses tag->bytes mapping
+    tt["meta"].data[b"dlng"] = DLNG.encode("utf-8")
+    tt["meta"].data[b"slng"] = SLNG.encode("utf-8")
+
+    tt.save(path)
+    print("added meta dlng/slng to", path)
+PY
+
 # ---------------------------------------------------------------------------
 # 8. Patch Italic variable font specifics
 # ---------------------------------------------------------------------------

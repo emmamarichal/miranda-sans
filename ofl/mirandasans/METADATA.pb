@@ -37,3 +37,6 @@ source {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+subsets: "vietnamese"
+
+minisite_url: "https://maxthunberg.com/?gf=miranda-sans"
