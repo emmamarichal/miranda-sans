@@ -8,7 +8,7 @@ Miranda Sans is available as a variable font and includes carefully crafted stat
 
 <br>
 
-[![Miranda Sans Image 1](ofl/mirandasans/article/image-1.png)](https://maxthunberg.com/projects/miranda-sans/)
+[![Miranda Sans Image 1](documentation/article/image-1.png)](https://maxthunberg.com/projects/miranda-sans/)
 
 ## Information
 
@@ -21,13 +21,13 @@ Miranda Sans is available as a variable font and includes carefully crafted stat
 - Broad Latin language support
 
 ## Example images
-[![Miranda Sans Image 2](ofl/mirandasans/article/image-2.png)](https://maxthunberg.com/projects/miranda-sans/)
+[![Miranda Sans Image 2](documentation/article/image-2.png)](https://maxthunberg.com/projects/miranda-sans/)
 
-[![Miranda Sans Image 3](ofl/mirandasans/article/image-3.png)](https://maxthunberg.com/projects/miranda-sans/)
+[![Miranda Sans Image 3](documentation/article/image-3.png)](https://maxthunberg.com/projects/miranda-sans/)
 
-[![Miranda Sans Image 4](ofl/mirandasans/article/image-4.png)](https://maxthunberg.com/projects/miranda-sans/)
+[![Miranda Sans Image 4](documentation/article/image-4.png)](https://maxthunberg.com/projects/miranda-sans/)
 
-[![Miranda Sans Image 5](ofl/mirandasans/article/image-5.png)](https://maxthunberg.com/projects/miranda-sans/)
+[![Miranda Sans Image 5](documentation/article/image-5.png)](https://maxthunberg.com/projects/miranda-sans/)
 
 ## Variable font
 
