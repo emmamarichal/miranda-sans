@@ -1,9 +1,6 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
-DisplayStrings = (
-"Vad är väl en bal på slottet?"
-);
 axes = (
 {
 name = Weight;

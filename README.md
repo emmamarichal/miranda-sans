@@ -16,7 +16,6 @@ Miranda Sans is available as a variable font and includes carefully crafted stat
 - Optimized for screen readability
 - Balanced proportions and closed apertures
 - Carefully tuned spacing and kerning
-- Tabular and proportional figures
 - Common Latin ligatures
 - Broad Latin language support
 
