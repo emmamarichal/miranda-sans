@@ -16,7 +16,8 @@ R,
 "̈Ää",
 "̈̈¨",
 ":/colon.caps",
-"="
+"=",
+K
 );
 axes = (
 {
@@ -51,7 +52,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2026-01-08 00:35:55 +0000";
+date = "2026-01-14 21:35:32 +0000";
 familyName = "Miranda Sans";
 featurePrefixes = (
 {

@@ -2,72 +2,7 @@
 .appVersion = "3436";
 .formatVersion = 3;
 DisplayStrings = (
-"aƷ",
-"ǎĕẽʒǯǧǥȟĭĩĳǩŀŏǿŝfſŭǔũ",
-"tǎĕẽʒǯǧǥȟĭĩĳǩŀŏǿŝſŭǔũ",
-"Ʒʒ",
-"ǥ",
-"",
-"Ǥ",
-"Ŀasdf",
-"ʻ",
-"₹",
-"12345678902",
-"`",
-"laŀ",
-"Ẽ",
-"AHȞ",
-"EĔ",
-"EĔ",
-"Ʒ",
-"GǦ",
-"JĲ",
-"KǨ",
-"OŎ",
-"Æ",
-B,
-F,
-L,
-M,
-N,
-"Ŋ",
-P,
-"Þ",
-tR,
-S,
-"ẞ",
-T,
-"Ŧ",
-V,
-W,
-X,
-Y,
-Z,
-"abcdefghijklmnopqrstuvwxyzåäö",
-"Δ",
-"Ω",
-"μ",
-"π",
-"0123456789",
-".,:;…!¡?¿·•*#///backslash/colon.caps -–—_(){}[]/parenleft.caps/parenright.caps/braceleft.caps/braceright.caps/bracketleft.caps/bracketright.caps",
-"ƒ@&¶§©®™°|¦†‡¢¤$€₹£¥+−×÷=≠><≥≤±≈~¬^∞∅∫∏∑√µ∂%‰↑↗→↘↓↙←↖↔↕◌◊",
-"↑↗→↘↓↙←↖↔↕◌◊",
-"¬",
-"̈̈̈¨",
-"Ď",
-"ǍĔẼƷǮǦǤȞĲĬĨǨĿŎǾŜŬǓŨAÁĂÂÄÀĀĄÅÃÆBCĆČÇĊDĎĐÐEÉĚÊËĖÈĒĘFGĞĢĠHĦIÍÎÏİÌĪĮJKĶLĹĽĻŁMNŃŇŅÑŊOÓÔÖÒŐŌØÕŒPÞQRŔŘŖSŚŠŞȘẞTŦŤŢȚUÚÛÜÙŰŪŲŮVWẂŴẄẀXYÝŶŸỲZŹŽŻǎĕẽʒǯǧǥȟĭĩĳǩŀŏǿŝſŭǔũaáăâäàāąåãæbcćčçċdďđðeéěêëėèēęfgğģġhħiıíîï/idotaccent ìīįjȷkķlĺľļłmnńňņñŋoóôöòőōøõœpþqrŕřŗsśšşșßtŧťţțuúûüùűūųůvwẃŵẅẁxyýŷÿỳzźžż/iogonek.dotless/f_f_i/f_f_l ﬁﬂªºΔΩμπ0123456789⁄½¼¾¹²³⁴ /nbspace/.notdef/lineseparator/paragraphseparator .,:;…!¡?¿·•*#///backslash/colon.caps -–—_(){}[]/parenleft.caps/parenright.caps/braceleft.caps/braceright.caps/bracketleft.caps/bracketright.caps ‚„“”‘’«»‹›\"'ƒ@&¶§©®™°|¦†‡¢¤$€₹£¥+−×÷=≠><≥≤±≈~¬^∞∅∫∏∑√µ∂%‰↑↗→↘↓↙←↖↔↕◌◊̧̨̦̈̇̀́̋̂̌̆̊̃̄̒¨˙`´˝ˆˇ˘˚˜¯¸˛/caron.alt ʼʻ",
-R,
-"æ",
-"[",
-"&",
-"¹",
-"̈¨",
-"/colon.caps",
-"=",
-".,:;…!¡?¿·•*#///backslash/colon.caps -–—_(){}[]/parenleft.caps/parenright.caps/braceleft.caps/braceright.caps/bracketleft.caps/bracketright.caps ‚„“”‘’«»‹›\"",
-"[]{}",
-")}]/parenright.caps/braceright.caps/bracketright.caps",
-"/parenright.caps"
+"Vad är väl en bal på slottet?"
 );
 axes = (
 {
@@ -110,7 +45,7 @@ name = "Has WWS Names";
 value = 1;
 }
 );
-date = "2026-01-08 00:08:40 +0000";
+date = "2026-01-14 21:35:07 +0000";
 familyName = "Miranda Sans";
 featurePrefixes = (
 {

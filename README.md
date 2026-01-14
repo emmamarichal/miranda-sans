@@ -57,6 +57,11 @@ Ready to use on your website. [Download via this link](https://github.com/maxthu
 
 body {
   font-family: "Miranda Sans", Arial, Helvetica, sans-serif;
+
+  // CSS below is recommended for better rendering
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 ```
 Here are all styles supported by Miranda Sans:
