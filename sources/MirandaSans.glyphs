@@ -2,7 +2,7 @@
 .appVersion = "3507";
 .formatVersion = 3;
 DisplayStrings = (
-"̨˛ĄĘĮUŲąęįų/iogonek.dotless"
+""
 );
 axes = (
 {
@@ -15079,7 +15079,7 @@ unicode = 311;
 glyphname = l;
 kernLeft = I;
 kernRight = l;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 14:11:25 +0000";
 layers = (
 {
 anchors = (
@@ -15135,7 +15135,7 @@ width = 270;
 anchors = (
 {
 name = bottom;
-pos = (168,0);
+pos = (191,0);
 },
 {
 name = center;
@@ -15343,7 +15343,7 @@ unicode = 318;
 },
 {
 glyphname = lcommaaccent;
-lastChange = "2026-01-07 23:54:00 +0000";
+lastChange = "2026-02-06 14:11:25 +0000";
 layers = (
 {
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
@@ -15365,7 +15365,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (18,0);
+pos = (41,0);
 ref = commaaccentcomb;
 }
 );
@@ -18382,7 +18382,7 @@ unicode = 383;
 glyphname = t;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-01-19 14:59:20 +0000";
+lastChange = "2026-02-06 14:11:11 +0000";
 layers = (
 {
 anchors = (
@@ -18456,7 +18456,7 @@ width = 350;
 anchors = (
 {
 name = bottom;
-pos = (245,10);
+pos = (245,0);
 },
 {
 name = center;
@@ -18764,7 +18764,7 @@ unicode = 357;
 glyphname = tcedilla;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-01-30 22:50:53 +0000";
+lastChange = "2026-02-06 14:11:14 +0000";
 layers = (
 {
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
@@ -18786,7 +18786,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (122,10);
+pos = (122,0);
 ref = cedillacomb;
 }
 );
@@ -18800,7 +18800,7 @@ unicode = 355;
 glyphname = tcommaaccent;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-01-30 22:50:53 +0000";
+lastChange = "2026-02-06 14:11:11 +0000";
 layers = (
 {
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
@@ -18822,7 +18822,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (95,10);
+pos = (95,0);
 ref = commaaccentcomb;
 }
 );
@@ -20717,7 +20717,7 @@ subCategory = Lowercase;
 },
 {
 glyphname = lcommaaccent.loclMAH;
-lastChange = "2026-01-31 10:21:06 +0000";
+lastChange = "2026-02-06 14:11:25 +0000";
 layers = (
 {
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
@@ -20739,7 +20739,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (18,0);
+pos = (41,0);
 ref = commaaccentcomb;
 }
 );
@@ -37912,7 +37912,7 @@ unicode = 786;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2026-01-31 11:01:14 +0000";
+lastChange = "2026-02-06 14:10:41 +0000";
 layers = (
 {
 anchors = (
@@ -37982,9 +37982,9 @@ shapes = (
 closed = 1;
 nodes = (
 (130,-240,l),
-(200,-70,l),
-(100,-70,l),
-(50,-240,l)
+(210,-70,l),
+(80,-70,l),
+(40,-240,l)
 );
 }
 );
