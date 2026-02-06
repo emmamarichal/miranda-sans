@@ -864,7 +864,7 @@ unicode = 256;
 glyphname = Aogonek;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -2472,7 +2472,7 @@ unicode = 274;
 glyphname = Eogonek;
 kernLeft = B;
 kernRight = E;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -4316,7 +4316,7 @@ unicode = 298;
 },
 {
 glyphname = Iogonek;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -8433,7 +8433,7 @@ unicode = 362;
 glyphname = Uogonek;
 kernLeft = U;
 kernRight = U;
-lastChange = "2026-02-06 13:43:39 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 hints = (
@@ -8456,9 +8456,6 @@ type = Stem;
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
 shapes = (
 {
-ref = U;
-},
-{
 closed = 1;
 nodes = (
 (490,-131,l),
@@ -8476,6 +8473,9 @@ nodes = (
 (399,-209,o),
 (490,-191,c)
 );
+},
+{
+ref = U;
 }
 );
 width = 690;
@@ -8493,34 +8493,34 @@ place = (-197,86);
 type = Stem;
 },
 {
-origin = (1,3);
-target = (1,10);
+origin = (0,10);
+target = (0,3);
 type = Stem;
 }
 );
 layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
 shapes = (
 {
-ref = U;
-},
-{
 closed = 1;
 nodes = (
-(379,23,l),
-(318,-11,o),
-(287,-66,o),
-(287,-104,cs),
-(287,-201,o),
-(432,-206,o),
-(512,-191,c),
 (512,-106,l),
 (482,-112,o),
 (433,-118,o),
 (433,-79,cs),
 (433,-49,o),
 (454,-21,o),
-(519,23,c)
+(519,23,c),
+(379,23,l),
+(318,-11,o),
+(287,-66,o),
+(287,-104,cs),
+(287,-201,o),
+(432,-206,o),
+(512,-191,c)
 );
+},
+{
+ref = U;
 }
 );
 width = 690;
@@ -10246,7 +10246,7 @@ unicode = 257;
 glyphname = aogonek;
 kernLeft = a;
 kernRight = a;
-lastChange = "2026-02-06 13:43:50 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -12452,7 +12452,7 @@ unicode = 275;
 glyphname = eogonek;
 kernLeft = o;
 kernRight = o;
-lastChange = "2026-02-06 15:04:20 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -14271,7 +14271,7 @@ unicode = 299;
 },
 {
 glyphname = iogonek;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -19187,7 +19187,7 @@ unicode = 363;
 glyphname = uogonek;
 kernLeft = u;
 kernRight = g;
-lastChange = "2026-01-30 22:51:11 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -20476,7 +20476,7 @@ unicode = 42892;
 },
 {
 glyphname = iogonek.dotless;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -38281,7 +38281,7 @@ unicode = 807;
 },
 {
 glyphname = ogonekcomb;
-lastChange = "2026-02-06 13:40:43 +0000";
+lastChange = "2026-02-06 15:14:23 +0000";
 layers = (
 {
 anchors = (
@@ -38350,8 +38350,8 @@ place = (-196,86);
 type = Stem;
 },
 {
-origin = (0,3);
-target = (0,10);
+origin = (0,10);
+target = (0,3);
 type = Stem;
 }
 );
@@ -38360,20 +38360,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(95,0,l),
-(39,-30,o),
-(14,-68,o),
-(14,-103,cs),
-(14,-200,o),
-(159,-205,o),
-(239,-190,c),
 (239,-105,l),
 (209,-111,o),
 (160,-117,o),
 (160,-87,cs),
 (160,-67,o),
 (189,-34,o),
-(245,0,c)
+(245,0,c),
+(95,0,l),
+(39,-30,o),
+(14,-68,o),
+(14,-103,cs),
+(14,-200,o),
+(159,-205,o),
+(239,-190,c)
 );
 }
 );
