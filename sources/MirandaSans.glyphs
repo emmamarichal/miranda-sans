@@ -7,7 +7,7 @@ DisplayStrings = (
 
 garçon
 ̨˛
-/caron.alt Ľďľť"
+̒ģ/caron.alt Ľďľť"
 );
 axes = (
 {
@@ -11588,27 +11588,9 @@ unicode = 100;
 {
 glyphname = dcaron;
 kernLeft = o;
-lastChange = "2026-01-30 22:51:35 +0000";
+lastChange = "2026-02-06 14:54:27 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (265,0);
-},
-{
-name = center;
-pos = (270,260);
-},
-{
-name = top;
-pos = (265,520);
-},
-{
-name = topright;
-pos = (550,520);
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -11671,24 +11653,6 @@ ref = caron.alt;
 width = 680;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (285,0);
-},
-{
-name = center;
-pos = (285,260);
-},
-{
-name = top;
-pos = (235,530);
-},
-{
-name = topright;
-pos = (565,520);
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -15226,23 +15190,9 @@ unicode = 314;
 },
 {
 glyphname = lcaron;
-lastChange = "2026-01-07 23:54:00 +0000";
+lastChange = "2026-02-06 14:54:23 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (-42,0);
-},
-{
-name = center;
-pos = (-42,390);
-},
-{
-name = top;
-pos = (-95,740);
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -15286,20 +15236,6 @@ ref = l;
 width = 304;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (-32,0);
-},
-{
-name = center;
-pos = (-32,390);
-},
-{
-name = top;
-pos = (295,720);
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -18607,27 +18543,9 @@ unicode = 359;
 glyphname = tcaron;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-01-30 22:50:53 +0000";
+lastChange = "2026-02-06 14:54:27 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (205,10);
-},
-{
-name = center;
-pos = (183,260);
-},
-{
-name = top;
-pos = (150,680);
-},
-{
-name = topright;
-pos = (350,520);
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -18690,24 +18608,6 @@ ref = caron.alt;
 width = 405;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (235,10);
-},
-{
-name = center;
-pos = (165,260);
-},
-{
-name = top;
-pos = (160,680);
-},
-{
-name = topright;
-pos = (332,525);
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -37798,7 +37698,7 @@ unicode = 772;
 },
 {
 glyphname = commaturnedabovecomb;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 14:56:33 +0000";
 layers = (
 {
 anchors = (
@@ -37867,6 +37767,79 @@ name = top;
 pos = (100,850);
 }
 );
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,630,l),
+(150,724,l),
+(110,724,l),
+(110,764,o),
+(110,810,o),
+(150,820,c),
+(150,850,l),
+(90,850,o),
+(50,794,o),
+(50,724,cs),
+(50,630,l)
+);
+}
+);
+};
+hints = (
+{
+horizontal = 1;
+place = (724,94);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (820,30);
+type = Stem;
+},
+{
+place = (50,100);
+type = Stem;
+},
+{
+place = (50,60);
+type = Stem;
+}
+);
+layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,629,l),
+(162,733,l),
+(122,733,l),
+(122,778,o),
+(130,798,o),
+(161,805,c),
+(161,849,l),
+(101,849,o),
+(42,811,o),
+(42,720,cs),
+(42,629,l)
+);
+}
+);
+width = 200;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (100,530);
+},
+{
+name = top;
+pos = (100,850);
+}
+);
+associatedMasterId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
 hints = (
 {
 horizontal = 1;
@@ -37891,7 +37864,8 @@ target = (0,2);
 type = Stem;
 }
 );
-layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+layerId = "A21F3170-534A-40AE-B2C6-D3472A8B566E";
+name = "6 Feb 26 at 15:56";
 shapes = (
 {
 closed = 1;
@@ -38870,7 +38844,7 @@ unicode = 731;
 },
 {
 glyphname = caron.alt;
-lastChange = "2026-01-08 23:02:18 +0000";
+lastChange = "2026-02-06 14:55:00 +0000";
 layers = (
 {
 anchors = (
@@ -38956,6 +38930,60 @@ type = Stem;
 }
 );
 layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(111,550,o),
+(170,588,o),
+(170,679,cs),
+(170,770,l),
+(50,770,l),
+(50,666,l),
+(90,666,l),
+(90,621,o),
+(82,601,o),
+(51,594,c),
+(51,550,l)
+);
+}
+);
+width = 200;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (50,770);
+}
+);
+associatedMasterId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+hints = (
+{
+horizontal = 1;
+origin = (0,10);
+target = (0,9);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,5);
+target = (0,4);
+type = Stem;
+},
+{
+origin = (0,10);
+target = (0,2);
+type = Stem;
+},
+{
+origin = (0,6);
+target = (0,2);
+type = Stem;
+}
+);
+layerId = "559440E7-D280-4007-AAA6-AC2E437B5774";
+name = "6 Feb 26 at 15:54";
 shapes = (
 {
 closed = 1;

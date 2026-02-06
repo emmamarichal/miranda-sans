@@ -2,7 +2,12 @@
 .appVersion = "3507";
 .formatVersion = 3;
 DisplayStrings = (
-"̧ÇŞŢçşţ"
+"̒ģ
+̧ÇŞŢçşţ
+
+garçon
+̨˛
+/caron.alt Ľďľť"
 );
 axes = (
 {
@@ -13111,7 +13116,7 @@ unicode = 285;
 glyphname = gcommaaccent;
 kernLeft = g;
 kernRight = g;
-lastChange = "2026-01-30 23:42:00 +0000";
+lastChange = "2026-02-06 14:56:42 +0000";
 layers = (
 {
 layerId = "05246BF3-0764-4143-87C4-5D2B296D3790";
@@ -13133,7 +13138,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (202,10);
+pos = (204,10);
 ref = commaturnedabovecomb;
 }
 );
@@ -37646,7 +37651,7 @@ unicode = 772;
 },
 {
 glyphname = commaturnedabovecomb;
-lastChange = "2026-01-31 11:02:11 +0000";
+lastChange = "2026-02-06 14:56:44 +0000";
 layers = (
 {
 anchors = (
@@ -37708,11 +37713,11 @@ width = 200;
 anchors = (
 {
 name = _top;
-pos = (146,530);
+pos = (144,530);
 },
 {
 name = top;
-pos = (203,850);
+pos = (200,850);
 }
 );
 hints = (
@@ -37729,12 +37734,12 @@ target = (0,6);
 type = Stem;
 },
 {
-origin = (0,10);
+origin = (0,9);
 target = (0,0);
 type = Stem;
 },
 {
-origin = (0,10);
+origin = (0,9);
 target = (0,2);
 type = Stem;
 }
@@ -37744,17 +37749,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(214,630,l),
-(231,724,l),
-(191,724,l),
-(198,764,o),
-(206,810,o),
-(248,820,c),
-(253,850,l),
-(193,850,o),
-(143,794,o),
-(131,724,cs),
-(114,630,l)
+(223,629,l),
+(242,733,l),
+(202,733,l),
+(210,778,o),
+(221,798,o),
+(253,805,c),
+(261,849,l),
+(201,849,o),
+(135,811,o),
+(119,720,cs),
+(103,629,l)
 );
 }
 );
@@ -38945,7 +38950,7 @@ unicode = 731;
 },
 {
 glyphname = caron.alt;
-lastChange = "2026-01-31 11:03:08 +0000";
+lastChange = "2026-02-06 14:55:31 +0000";
 layers = (
 {
 anchors = (
@@ -39009,6 +39014,55 @@ pos = (140,770);
 hints = (
 {
 horizontal = 1;
+place = (550,30);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (676,94);
+type = Stem;
+},
+{
+place = (101,122);
+type = Stem;
+},
+{
+place = (163,60);
+type = Stem;
+}
+);
+layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(156,550,o),
+(221,588,o),
+(237,679,cs),
+(253,770,l),
+(133,770,l),
+(115,666,l),
+(155,666,l),
+(147,621,o),
+(136,601,o),
+(103,594,c),
+(96,550,l)
+);
+}
+);
+width = 201;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (140,770);
+}
+);
+associatedMasterId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+hints = (
+{
+horizontal = 1;
 origin = (0,10);
 target = (0,9);
 type = Stem;
@@ -39030,7 +39084,8 @@ target = (0,2);
 type = Stem;
 }
 );
-layerId = "B51EB05F-9FBB-4087-814F-400611B2D4B0";
+layerId = "8E95D6AD-7397-4A0E-97E0-F3C561730928";
+name = "6 Feb 26 at 15:55";
 shapes = (
 {
 closed = 1;
